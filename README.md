@@ -1,2 +1,4 @@
 # Real-and-Fake-news-detection
-NLP (time-series)
+GloVe-powered fake article detection project to prevent the spread of misinformation through articles/news. 
+Algorithms used: Random Forest a powerful bagging algorithm, LSTM and RNN Deep Learning techniques for precise time-series/sequence based predictions.
+Utilized 100 dimension pre-trained GloVe (Global Vectors for Word Representation) embeddings of the article/news content. Other techniques used while performing feature analysis & engineering and model training: Sentiment analysis, time-series based feature analysis (trend, seasonality, residual), format transformation of categorical features, feature crossing to combine features, hyper-parameter tuning for obtaining optimal parameter combination, cross-validation with time-series split, ADASYN over-sampling for balancing classes with synthetic samples.
